@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300;400&family=Oswald:wght@700&family=Passions+Conflict&family=Roboto+Mono&family=Rubik+Dirt&family=Tenor+Sans&display=swap');
+body{
+    
+    font-family: 'Open sans';
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav-list{
+    display: flex;
+    column-gap: 150px;
+}
+.nav-item>a{
+    /* padding-top: 65px; */
+   color:#323232;
+   font-size: 24px;
+}
+.nav-item:nth-child(1){
+    margin-left:40px;
+}
+.nav-item:last-child{
+    margin-right:40px;
+}
+.logo{
+    /* padding-top: 30px; */
+}
+.feature{
+    border: 1px solid #000000;
+    background-color: #000000;
+}
+.wrapper{
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1614384397_60-p-foni-kvadratnie-svetlie-74.jpg');
+}
+
+.content{color: #57463A;
+    display:flex;
+    align-items: center;
+    position: relative;
+}
+.content-title{
+    font-family: 'Tenor sans';
+    font-size: 48px;
+    margin-top: 13px;
+    margin-bottom: 40px;
+    max-width: 520px;
+}
+.content-block{
+    margin-left: 37px;
+}
+.content-text-light{
+    font-size: 16px;
+}
+.content-text{
+    margin-bottom: 70px;
+}
+.content-button{
+    color:#F6F6F6;
+    background: #A1B29F;
+    padding:20px 60px;
+    -webkit-box-shadow: 3px 7px 24px -2px rgba(25, 114, 83, 0.3);
+-moz-box-shadow: 3px 7px 24px -2px rgba(25, 114, 83, 0.3);
+box-shadow: 3px 7px 24px -2px rgba(25, 114, 83, 0.3);
+}
+
+.socials-list{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right:10%;
+    bottom: 10%;
+    gap:40px;
+}
+/* .product-list{
+    display:flex; */ 
+    /* /* justify-content: space-between;
+    max-width: 1160px;
+    margin:0 auto;
+    gap:40px;
+    align-items: center; */
+    /* gap:100px; */
+    /* column-count:4;
+    flex-wrap: wrap;
+    background-color: #A1B29F;
+    display:flex;
+}
+.product-item img{
+    background-color: green;
+    max-width: 50vmin;
+  min-width: 19.46vmax;
+    
+} */
+.product{
+    color:#57463A;
+    /* padding-left:100px; */
+    max-width:1160px;
+    margin:0 auto;
+}
+.product-title{
+    font-size: 48px;
+    padding-top:160px;
+    padding-bottom: 100px;
+    font-family: 'Tenor Sans';
+    
+    
+}
+.product-section{
+    max-width: 280px;
+    text-align: center;
+    border-bottom: 3px solid #715B4B;
+    padding-bottom: 20px;
+}
+.products-section{
+    display: flex;
+    justify-content: space-around;
+}
+/* .product-img{
+    border: 1px solid black;
+    padding:70px;
+    
+}
+.product-list{
+    column-count:4;
+    
+
+} */
+.product-column{
+    display:flex;
+    flex-wrap: wrap;
+    /* column-gap:190px;
+    row-gap:140px; */
+    margin:0 auto;
+}
+.product-card:first-child, .product-card:nth-child(5){
+    padding-left: 70px;
+}
+.product-description{
+    text-align: center;
+    padding-top: 30px;
+}
+.product-card{
+    border: 1px solid #000000;
+    padding:60px 90px 40px;
+}
+.product-description-limit{
+    margin-left:-16px;
+}
+
+.information-main{
+font-family: 'Tenor Sans';
+color: 
+#57463A;
+font-size: 48px;
+padding-bottom: 100px;
+padding-top: 160px;
+
+}
+.container2{
+    max-width:1160px;
+    margin:0 auto;
+}
+.container{
+    background: #f3efea;
+    max-width: 1440px;
+    margin:0 auto;
+    position: relative;
+}
+.information-block img{
+    position: relative;
+    left:0;
+}
+.information-block{
+    display:flex;
+    align-items: center;
+    background-color: #ebeeeb;
+}
+.information-title{
+    font-family: 'Tenor Sans';
+    font-size: 24px;
+    padding-bottom: 40px;
+    max-width: 510px;
+}
+.information-text{
+    padding-left: 40px;
+}
+.information-description{
+    max-width: 510px;
+    padding-bottom:30px;
+}
+.information-description-second{
+    padding-bottom: 60px;
+}
+.information-main-second{
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+.warranty-title{
+    text-align: center;
+    font-family: 'Tenor Sans';
+font-size: 48px;
+max-width: 660px;
+margin:0 auto;
+padding-bottom: 40px;
+color:#57463A;
+}
+.warranty-frame{
+    border: 1px solid #715B4B; 
+    padding:90px 120px 180px;
+    position: relative;
+   
+    
+    
+}
+.warranty-text{
+    border: 7px solid #A1B29F;
+    padding:5px;
+    margin-top: 220px;
+    font-size: 24px;
+    color:#57463A;
+
+}
+.warranty-description{
+    max-width: 930px;
+    text-align: center;
+}
+.warranty-logo{
+    position: absolute;
+    right:5%;
+    bottom:5%;
+}
+.plug{
+    padding:105px
+}
+.footer{
+    background: linear-gradient(to left, #715B4B 95%,  #BABABA 10%);
+
+}
+.footer-list{
+    padding-top: 85px;
+    padding-bottom: 120px;
+    font-size: 16px;
+line-height: 150%;
+/* identical to box height, or 24px */
+
+
+color: #F6F6F6;
+}
+.footer-element{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-item{
+   margin-bottom: 30px;
+}
+.footer-image{
+    display: flex;
+    gap:15px;
+    margin-top: 85px;
+}
